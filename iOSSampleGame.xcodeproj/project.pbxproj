@@ -19,6 +19,7 @@
 		3465E4D6189CCC75009D832E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3465E4BE189CCC75009D832E /* UIKit.framework */; };
 		3465E4DE189CCC75009D832E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3465E4DC189CCC75009D832E /* InfoPlist.strings */; };
 		3465E4E0189CCC75009D832E /* iOSSampleGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3465E4DF189CCC75009D832E /* iOSSampleGameTests.m */; };
+		3465E4EF189CD305009D832E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3465E4EE189CD305009D832E /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,9 @@
 		3465E4DB189CCC75009D832E /* iOSSampleGameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSSampleGameTests-Info.plist"; sourceTree = "<group>"; };
 		3465E4DD189CCC75009D832E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3465E4DF189CCC75009D832E /* iOSSampleGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSSampleGameTests.m; sourceTree = "<group>"; };
+		3465E4E9189CD1AB009D832E /* test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
+		3465E4ED189CD305009D832E /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		3465E4EE189CD305009D832E /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +115,8 @@
 				3465E4CA189CCC75009D832E /* AppDelegate.m */,
 				3465E4CC189CCC75009D832E /* Images.xcassets */,
 				3465E4C1189CCC75009D832E /* Supporting Files */,
+				3465E4ED189CD305009D832E /* MainViewController.h */,
+				3465E4EE189CD305009D832E /* MainViewController.m */,
 			);
 			path = iOSSampleGame;
 			sourceTree = "<group>";
@@ -118,6 +124,7 @@
 		3465E4C1189CCC75009D832E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3465E4E9189CD1AB009D832E /* test.h */,
 				3465E4C2189CCC75009D832E /* iOSSampleGame-Info.plist */,
 				3465E4C3189CCC75009D832E /* InfoPlist.strings */,
 				3465E4C6189CCC75009D832E /* main.m */,
@@ -240,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3465E4CB189CCC75009D832E /* AppDelegate.m in Sources */,
+				3465E4EF189CD305009D832E /* MainViewController.m in Sources */,
 				3465E4C7189CCC75009D832E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
